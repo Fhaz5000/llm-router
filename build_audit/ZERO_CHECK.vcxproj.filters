@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Matthew\llm-router\build_audit\CMakeFiles\c5a8fd573125faf86e0b22065c296e80\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0D3B077B-61AC-3A58-AD74-C724601C66A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

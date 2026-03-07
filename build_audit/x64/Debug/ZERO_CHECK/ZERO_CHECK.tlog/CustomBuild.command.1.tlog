@@ -1,0 +1,10 @@
+^C:\USERS\MATTHEW\LLM-ROUTER\BUILD_AUDIT\CMAKEFILES\C5A8FD573125FAF86E0B22065C296E80\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Matthew/llm-router -BC:/Users/Matthew/llm-router/build_audit --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Matthew/llm-router/build_audit/llm-router.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
